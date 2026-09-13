@@ -1,5 +1,8 @@
 body{
       margin:0px;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
       background-color: gold;
       color: black;
 }
@@ -78,7 +81,10 @@ input,textarea, {
       margin-bottom: 15px;
       border: 1px solid #ccc;
       border-radius: 5px;
- }
+}
+main {
+    flex: 1;
+}
 footer{
   padding:20px;
   font-size:50px;
