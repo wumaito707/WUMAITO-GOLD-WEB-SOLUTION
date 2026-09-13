@@ -1,6 +1,9 @@
 body{
   font:80px;
   margin:0px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
   background-color: gold;
   color: black;
 }
@@ -162,6 +165,9 @@ marquee{
       border-radius: 50%;
       object-fit: cover;
       margin-bottom: 10px;
+    }
+main {
+    flex: 1;
     }
 footer{
   padding:20px;
